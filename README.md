@@ -7,6 +7,7 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
 
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
@@ -43,6 +44,51 @@ We would like to extend our thanks to the following sponsors for funding Laravel
 - **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
 - **[DevSquad](https://devsquad.com)**
 - **[OP.GG](https://op.gg)**
+
+
+## Installation
+* Clone or download the repository
+```PHP
+git clone https://github.com/Kwenziwa/mywebapp.git
+```
+
+* CD in project root directory and Run
+```PHP
+cd mywebapp/
+composer install 
+```
+* Run 
+```PHP
+npm install
+
+npm run dev
+```
+
+* Rename .env.example to .env
+
+* Change your database credentials on the .env file
+
+* Run the generate application key
+```PHP
+php artisan key:generate
+```
+
+* Run the migrations and seed data on your database
+```PHP
+php artisan migrate --seed
+```
+
+* Run 
+```PHP
+php artisan serve
+```
+
+* And you're good to go !
+
+## CopyRight
+This project is open for all.
+
+
 
 ## Contributing
 
